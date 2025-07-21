@@ -1,0 +1,13 @@
+freeglut3-dev
+libgtk2.0-dev
+libgl1-mesa-libGL.so.1
+libgl1-mesa-dev
+libgl1-mesa-glx
+libglib2.0-0
+ffmpeg 
+libsm6 
+libxext6
+libgl1
+libGL.so.1
+libxrender-dev
+libgomp1
