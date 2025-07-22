@@ -8,9 +8,12 @@ import streamlit as st
 from PIL import Image, ImageDraw , ImageFont
 import numpy as np
 from ultralytics import YOLO
+
 model = YOLO('best.pt')
 object_names = list(model.names.values())
 
+st.title("Loei Stone Detection tool(LSD)")
+st.markdown("<h1 style='text-align: center; color: black ; font-size: 19px ;'><em>Good detection Good using</em></h1>", unsafe_allow_html=True)
 
 img_file_buffer = st.camera_input("Take a picture", width ='stretch')
 
