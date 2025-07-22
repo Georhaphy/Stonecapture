@@ -13,7 +13,7 @@ model = YOLO('best.pt')
 object_names = list(model.names.values())
 
 
-img_file_buffer = st.camera_input("Take a picture", , width="stretch")
+img_file_buffer = st.camera_input("Take a picture", width="stretch")
 
 if img_file_buffer is not None:
     # To read image file buffer as a PIL Image:
